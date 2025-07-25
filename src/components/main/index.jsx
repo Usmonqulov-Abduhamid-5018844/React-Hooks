@@ -119,7 +119,7 @@ export default function Index() {
             </div>
           </form>
         </div>
-        
+
         <div className="overflow-x-auto h-[540px] bg-amber-50 rounded-[12px] p-4">
   <table className="min-w-[800px] w-full">
     <thead className="bg-[#50957C] text-white">
@@ -164,6 +164,7 @@ export default function Index() {
     </tbody>
   </table>
 </div>
+
 
       </div>
     </div>
