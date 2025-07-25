@@ -119,63 +119,7 @@ export default function Index() {
             </div>
           </form>
         </div>
-
-        {/* <div className=" table w-auto h-[540px] overflow-hidden bg-amber-50 rounded-[12px]">
-          <table className=" w-[800px]">
-            <thead className=" bg-[#50957C] text-white">
-              <tr>
-                <th className="py-3 px-5">N</th>
-                <th className="text-start  px-5">Name</th>
-                <th className="text-start  px-5">Email</th>
-                <th className="text-start  px-5">Password</th>
-                <th className="text-start  px-5">Date</th>
-                <th className="text-start  px-5">Gender</th>
-                <th className="text-center  px-5">Delet</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {data?.map((item, index) => {
-                if ((index + 1) % 2 == 0) {
-                  return (
-                    <tr className="border-y-2 border-[#DBDBDB] bg-[#F3F3F3] text-[#4B8A6F] hover:bg-blue-300 ">
-                    <th className="pl-[23px] px-5 py-[10px] text-start">{index + 1}</th>
-                    <th className="text-start px-5">{item.full_name}</th>
-                    <th className="text-start px-5">{item.email}</th>
-                    <th className="text-start px-5 text-wrap">{item.password}</th>
-                    <th className="text-start px-5">{item.date}</th>
-                    <th className="text-start px-5">{item.gender}</th>
-                    <th>
-                    <AiFillDelete
-                      onClick={() => deletItem(item.id)}
-                      className="text-black w-7 h-7 rounded-2xl m-auto mt-2.5 hover:bg-amber-600 cursor-pointer"
-                    />
-                    </th>
-                  </tr>
-                  )
-                }
-                else{
-                  return (
-                  <tr className=" bg-white text-gray-600 hover:bg-gray-300 ">
-                    <th className="pl-[23px] px-5 py-[10px] text-start">{index + 1}</th>
-                    <th className="text-start px-5">{item.full_name}</th>
-                    <th className="text-start px-5">{item.email}</th>
-                    <th className="text-start px-5">{item.password}</th>
-                    <th className="text-start px-5">{item.date}</th>
-                    <th className="text-start px-5">{item.gender}</th>
-                    <th>
-                    <AiFillDelete
-                      onClick={() => deletItem(item.id)}
-                      className="text-black w-7 h-7 rounded-2xl m-auto mt-2.5 hover:bg-amber-600 cursor-pointer"
-                    />
-                    </th>
-                  </tr>
-                  )
-                }
-              })}
-            </tbody>
-          </table>
-        </div> */}
+        
         <div className="overflow-x-auto h-[540px] bg-amber-50 rounded-[12px] p-4">
   <table className="min-w-[800px] w-full">
     <thead className="bg-[#50957C] text-white">
